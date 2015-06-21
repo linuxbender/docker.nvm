@@ -6,7 +6,7 @@ MAINTAINER linuxbender <linuxbender@gmail.com>
 
 ENV NVM_DIR /.nvm
 
-RUN apt-get update && apt-get install -y curl python && apt-get autoremove -y
+RUN apt-get update && apt-get install -y curl git python vim && apt-get autoremove -y
 
 RUN curl -o- https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
 
