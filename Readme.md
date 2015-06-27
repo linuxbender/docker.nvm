@@ -3,7 +3,7 @@ This is a basic docker image for node development. This image includes Node Vers
 
 # Tools
  are git and vim
-
+# Mini How To
 > Build your docker image
 ```bash
 docker build -t docker.nvm .
