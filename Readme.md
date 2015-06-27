@@ -1,6 +1,9 @@
 # docker.nvm
 This is a basic docker image for node development. This image includes Node Version Manager (NVM), Nodejs, NPM, bower, grunt, gulp,mocha, chai,sinon and Typescript
 
+# Tools
+ are git and vim
+
 > Build your docker image
 ```bash
 docker build -t docker.nvm .
